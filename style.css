@@ -66,7 +66,7 @@ body {
 
 .execution-warning {
     color: red;
-    font-size: 2em; /* Example size, adjust as needed */
+    font-size: 3em; /* Example size, adjust as needed */
     text-align: center;
     margin-top: 20px;
 }
