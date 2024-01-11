@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    width: 90%; /* Increased width */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#absence-counter {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #0056b3; /* Blue text color */
+}
+
+#increment-btn {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background-color: #0056b3;
+}
+
+.warning { /* Style for the warning message */
+    color: red;
+    font-size: 1.5em;
+    margin-top: 20px;
+    display: none; /* Initially hidden */
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker { /* Blinking effect */
+    50% { opacity: 0; }
+}
+
+#social-credit {
+    margin: 20px 0;
+    color: red;
+    font-size: 1.2em;
+}
+
+#social-credit #flag {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+#execution-warning {
+    display: none;
+    font-size: 2em;
+    color: red;
+    margin-top: 20px;
+}
+
