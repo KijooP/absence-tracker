@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     warningMessage.classList.add('warning');
     warningMessage.textContent = "Chronic Absenteeism";
     const executionWarning = document.createElement('div'); // Create execution warning element
+    const executionWarning = document.getElementById('execution-warning');
 
     let absenceDays = 4; // Start from day 4
     let socialCredit = 100;
